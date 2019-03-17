@@ -1,26 +1,38 @@
 {
   "name": "cordova-plugin-brother-label-printer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cordova plugin for brother label printers",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "cordova": {
+    "id": "cordova-plugin-brother-label-printer",
+    "platforms": [
+      "android",
+      "ios"
+    ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MenelicSoftware/cordova-plugin-brother-label-printer.git"
+    "url": "https://github.com/MenelicSoftware/cordova-plugin-brother-label-printer"
   },
   "keywords": [
-    "cordova",
-    "plugin",
     "brother",
+    "print",
+    "sdk",
     "label",
-    "printer",
-    "sql",
-    "820"
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
   ],
-  "author": "mohamed.benaida forked from gordol",
-  "license": "ISC",
+  "engines": {
+    "cordova": ">=3.6.0",
+    "cordova-android": ">=6.0.0",
+    "android-sdk": ">=26",
+    "apple-ios": ">=10.0.0"
+  },
+  "author": "Thomas Gordon Lowrey IV",
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/MenelicSoftware/cordova-plugin-brother-label-printer/blob/master/LICENSE"
+  }],
   "bugs": {
     "url": "https://github.com/MenelicSoftware/cordova-plugin-brother-label-printer/issues"
   },
